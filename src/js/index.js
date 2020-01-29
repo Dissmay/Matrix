@@ -177,6 +177,8 @@ class MatrixRender{
     document.body.insertAdjacentElement('afterend', btnMinus);
 
     matrix.subscribe(this);
+    console.log(this);
+    
     const fragment = this.render();
     this.mount(fragment);   
   }
